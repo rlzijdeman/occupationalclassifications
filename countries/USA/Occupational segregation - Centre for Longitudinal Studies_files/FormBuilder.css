@@ -1,0 +1,235 @@
+﻿textarea, input, select {
+	font-family: Arial, sans-serif;
+	font-size: 95%;
+}
+
+.questionbox {
+	color: #000;
+	clear: both;
+	float: left;
+	padding: 10px 10px 5px 10px;
+	width: 420px;
+	clear: both;
+}
+
+.questionbox a {
+	color: #000;
+}
+
+.qseparator {
+	font-size: 1px;
+	height: 0px;
+	clear: both;
+}
+
+/*.qsectionheading {
+	line-height: 1.4em;
+	padding: 10px 20px;
+	width: 700px;
+	background-color: #363636;
+	color:White;
+	font-size:1.3em;
+}*/
+.qtempTextBox {
+		
+}
+
+.questionnumber {
+	display:inline;
+	float: left;
+	margin-right:10px;
+	text-align:right;
+	color: #000;
+	font-weight: bold;
+	padding: 3px 4px 2px 4px;
+}
+
+.question {
+	padding: 3px 0px;
+	float: left;
+	width: 200px;
+}
+
+.noanswerquestion {
+	padding: 3px 0px 3px 10px;
+	font-weight: bold;
+	float: left;
+	width: 700px;
+}
+
+.subquestionbox {
+	color: #000000;
+	clear: both;
+	float: left;
+	width: 740px;
+}
+
+.answer {
+	float: left;
+	padding: 3px;
+	clear: both;
+	width: 700px;
+	margin-left: 34px;
+	display: inline;
+}
+
+.optioninput {
+	position: relative;
+	top: 1px;
+	margin-right: 1px;
+	float: left;
+}
+
+.answertext {
+	float: left;
+	padding-top: 2px;
+}
+
+.ratingnum {
+	float: left;
+	text-align: center;
+	width: 30px;
+}
+
+.ratingnum input {
+	margin-left: -3px;
+}
+
+.tinytextboxtext {
+	float: left;
+	width: 420px;
+	margin-right: 10px;
+}
+
+.smalltextboxtext {
+	float: left;
+	width: 380px;
+	margin-right: 10px;
+}
+
+.inlinemediumtextboxtext {
+	float: left;
+	width: 235px;
+	margin-right: 10px;
+}
+
+.newlinemediumtextboxtext, .largetextboxtext {
+	width: 420px;
+}
+
+.tinymultitextbox {
+	float: right;
+	width: 50px;
+}
+
+.smallmultitextbox {
+	float: right;
+	width: 80px;
+}
+
+.inlinemediummultitextbox {
+	float: right;
+	width: 230px;
+}
+
+.newlinemediumtextbox {
+	margin-top: 2px;
+	width: 230px;
+	margin-left: 38px;
+}
+
+.newlinemediummultitextbox {
+	margin-top: 2px;
+	width: 230px;
+}
+
+.largetextbox, .textarea {
+	margin-top: 2px;
+	width: 420px;
+	margin-left: 38px;
+}
+
+.largemultitextbox {
+	margin-top: 2px;
+	width: 420px;
+}
+
+.qanswer fieldset legend span {
+  visibility: hidden;
+  display:block;
+  white-space:normal;
+  width:100%;
+  line-height: 0;
+}
+
+.qquestion fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.qquestion fieldset legend {
+}
+.qquestion fieldset legend span {
+  visibility: hidden;
+  display:block;
+  white-space:normal;
+  width:100%;
+  line-height: 0;
+}
+
+.controlbox {
+	/*border-top: 2px solid white;
+	border-bottom: 2px solid white;*/
+	padding-top:20px;
+	margin-bottom: 8px;
+	clear:both;
+	margin-left:10px;
+}
+
+.controlbox .button 
+{
+	float:left;
+	margin-right:10px;
+}
+
+.controlbox .button input 
+{
+    color:White;
+	background:url(../images/btnform.png) no-repeat 100%;
+	padding:0 3px 0 3px;
+	height:23px;
+	width:91px;
+	overflow:hidden;
+	line-height:22px;
+	cursor:pointer;
+	border-style:none;
+}
+.qvalidationsummary 
+{
+	border: dotted red 1px;
+	padding:10px;
+	background-image: url('../images/Warning.png');
+	background-position: 10px 10px;
+	background-repeat:no-repeat;
+	text-indent:20px;
+	line-height:1;
+	font-size: 1em;
+}
+
+.qvalidationsummary ul
+{
+	margin-top: 10px;	
+}
+
+.qvalidationsummary ul li {
+	
+	margin-left: 20px;
+	text-indent:0px;
+}
+.ErrorMessage {
+	background-image: url('../images/Warning.png');
+	background-repeat:no-repeat;
+	height:16px;
+	width:16px;
+	margin-top:2px;
+}
